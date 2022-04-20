@@ -1,0 +1,62 @@
+.chatMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.chatMessageContent {
+  margin: 10px;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.messageHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.adminMessage {
+  font-weight: bold;
+  background-color: var(--chatbot);
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 999px;
+  color: white !important;
+}
+
+.userMessage {
+  font-size: 0.8em;
+  color: rgb(98, 182, 78);
+  font-weight: bold;
+}
+
+.messageTime {
+  margin-left: 8px;
+  font-size: 12px;
+  color: rgb(160, 160, 160);
+}
+
+.messageContent {
+  font-size: 1.05em;
+  word-wrap: break-word;
+  max-width: 1000px;
+  margin-bottom: 5px;
+}
+
+.correctAnswer {
+  font-weight: bold;
+}
+
+.correctAnswerSpan {
+  font-weight: bold;
+  color: var(--chatbot);
+}
+
+.questionMessageText {
+  font-weight: bold;
+}

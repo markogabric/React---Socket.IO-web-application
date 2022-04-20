@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+  color: var(--text);
+}
+
+:root {
+  --header: #202225;
+  --questionTime: #2f3136;
+  --input: #40444b;
+  --chat: #36393f;
+  --leaderboard: #2f3136;
+  --text: white;
+  --chatbot: #ac42ac;
+}
+
+.errorMessage {
+  color: red;
+}

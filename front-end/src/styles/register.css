@@ -1,0 +1,21 @@
+.registerPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--chat);
+  padding-top: 100px;
+}
+
+.registerBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+}
+
+.registerHeader {
+  margin: 20px;
+}

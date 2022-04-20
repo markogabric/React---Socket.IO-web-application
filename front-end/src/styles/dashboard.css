@@ -1,0 +1,37 @@
+.dashboardPage {
+  background-color: var(--chat);
+  height: 100vh;
+}
+
+.roomList {
+  display: flex;
+  flex-direction: row;
+  min-width: 1080px;
+  max-width: 1080px;
+  flex-wrap: wrap;
+  background-color: var(--chat);
+  height: 90vh;
+  justify-content: center;
+}
+
+.dashboardHeader {
+  background-color: var(--header);
+  height: 10vh;
+}
+
+.dashboardContent {
+  display: flex;
+  justify-content: center;
+}
+
+.chatroomTitle {
+  margin-bottom: 10px;
+}
+
+.dashboardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}

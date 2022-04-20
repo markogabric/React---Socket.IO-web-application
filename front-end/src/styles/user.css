@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.userUsername {
+  font-weight: bold;
+  font-size: 1.05em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80px;
+  overflow: hidden;
+}
+
+.userPoints {
+  font-size: 0.8em;
+}
